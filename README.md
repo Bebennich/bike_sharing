@@ -1,20 +1,19 @@
-Nama: Indah Ayu Putri Mashita Cahyani
-Email: indahmcshita.q@gmail.com
-ID Dicoding: iapmashitac
+Nama: Muhammad Rifqi Rahmanda
+Email: rifqirahmanda2004@gmail.com / 22081010315@student.upnjatim.ac.id
+ID Dicoding: Muhammad Rifqi Rahmanda
 
-# Air Quality Data Analysis Project Nongzhanguan Station
+# Bike Sahirng Analisis
 
 ## Live Dashboard
-[Air Quality Dashboard](https://air-quality-data-ah8mb8fas5nhry5ruses6w.streamlit.app/)
+[Bike Sharing Dashboard](https://bikesharing-3tlvn2citvhvljt587rjvb.streamlit.app/)
 
 ## Project Overview
-This project, submitted for the "Learn Data Analysis with Python" course from Dicoding, focuses on analyzing air quality data, particularly PM2.5 levels, from the Nongzhanguan  station.
-
+This project, submitted for the "Learn Data Analysis with Python" course from Dicoding, focuses on analyzing bike sahring data.
 ## Introduction
-The goal of this project is to analyze air quality data, specifically PM2.5 pollutant levels, and understand their relationship with various environmental factors. The analysis includes identifying trends, seasonal patterns, and correlations with weather conditions.
+The goal of this project is to analyze bike sharing for What are annual bicycle usage trends, measured in days and hours? and What weather factor has the greatest influence on the number of bicycle rental companies?
 
 ## Data Source
-The dataset used in this project includes air quality measurements from the Nongzhanguan station, with a focus on PM2.5 levels and other related environmental data.
+The dataset used in this project includes bike sharing other related environmental data.
 
 ## Libraries Used
 - Streamlit
@@ -22,42 +21,32 @@ The dataset used in this project includes air quality measurements from the Nong
 - Matplotlib
 - Seaborn
 - NumPy
-- SciPy
-- Statsmodels
 
 ## Key Insights
 - Seasonal variation in PM2.5 levels with higher concentrations in colder months.
 - Correlation between PM2.5 levels and weather conditions like temperature and humidity.
 - Trends and patterns revealed through time series analysis.
 
-## How to Run the Dashboard
-To run the Air Quality Analysis Dashboard, follow these steps:
+## How to Run the Bike Sharing Analysis Dashboard
+To run the Bike Sharing Analysis Dashboard, follow these steps:
 
-### Setup Environment
-Create and Activate a Python Environment:
-
-#### If using Conda (ensure Conda is installed):
-```bash
-conda create --name airquality-ds python=3.9
-conda activate airquality-ds
+## Create and Activate a Python Environment:
+If using Conda (ensure Conda is installed):
+ conda create --name bikesharing-ds python=3.9
+ conda activate bike_sharing-ds
 
 If using venv (standard Python environment tool):
-python -m venv airquality-ds
-source airquality-ds/bin/activate  # On Windows use `airquality-ds\Scripts\activate`
 
-Install Required Packages:
+ python -m venv bike_sharing-ds
+
+## Install Required Packages:
 The following packages are necessary for running the analysis and the dashboard:
-pip install pandas numpy scipy matplotlib seaborn streamlit statsmodels
 
+pip install pandas numpy matplotlib seaborn streamlit
 Run the Streamlit App
-Navigate to the Project Directory where dashboard/app.py is located.
-streamlit run dashboard/app.py
+Navigate to the project directory where dashboard/dashboard.py is located:
 
+cd path/to/your/project/directory
+streamlit run dashboard/dashboard.py
 
-The dataset used for this analysis is included in the project repository.
-A detailed Python notebook (Indah_Notebook_Analisis_Data.ipynb) containing the data analysis and visualizations is also provided.
-
-Note:
-Since Dicoding recommended creating the good and tidy folder structures, as dashboard/app.py in the dashboard folder, then the deployment for Streamlit App affected.
-
-Thats why I put the requirements.txt in the dashboard folder as well.
+The dataset used for this analysis is included in the project repository. A detailed Python notebook (e.g., Proyek Analisi Data.ipynb) containing the data analysis and visualizations is also provided.
